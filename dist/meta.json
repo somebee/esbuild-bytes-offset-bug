@@ -1,0 +1,61 @@
+{
+  "inputs": {
+    "image.svg": {
+      "bytes": 109,
+      "imports": []
+    },
+    "styles.css": {
+      "bytes": 42,
+      "imports": [
+        {
+          "path": "image.svg",
+          "kind": "url-token"
+        }
+      ]
+    },
+    "index.js": {
+      "bytes": 437,
+      "imports": [
+        {
+          "path": "styles.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "index.js",
+      "inputs": {
+        "styles.css": {
+          "bytesInOutput": 0
+        },
+        "index.js": {
+          "bytesInOutput": 52
+        }
+      },
+      "bytes": 81
+    },
+    "dist/image-WFRGLPG5.svg": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "image.svg": {
+          "bytesInOutput": 109
+        }
+      },
+      "bytes": 109
+    },
+    "dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "styles.css": {
+          "bytesInOutput": 61
+        }
+      },
+      "bytes": 94
+    }
+  }
+}
