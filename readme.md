@@ -18,3 +18,7 @@ Output of meta is incorrect:
   }
 ```
 bytesInOutput does not take the public-path into account. It is correct when public-path is not set.
+
+## Testing
+
+Run `npm run test`. If it logs out `"bytesInOutput": 56` at the end, the test passes.

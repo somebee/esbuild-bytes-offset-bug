@@ -5,7 +5,7 @@
       "imports": []
     },
     "styles.css": {
-      "bytes": 42,
+      "bytes": 45,
       "imports": [
         {
           "path": "image.svg",
@@ -14,7 +14,7 @@
       ]
     },
     "index.js": {
-      "bytes": 437,
+      "bytes": 485,
       "imports": [
         {
           "path": "styles.css",
@@ -52,10 +52,10 @@
       "imports": [],
       "inputs": {
         "styles.css": {
-          "bytesInOutput": 61
+          "bytesInOutput": 56
         }
       },
-      "bytes": 94
+      "bytes": 73
     }
   }
 }

@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "test": "rm -rf dist & esbuild --bundle index.js --outdir=dist --loader:.svg=file --metafile=dist/meta.json --charset=utf8; grep -F '\"bytesInOutput\": 56' dist/meta.json"
+    },
+    "dependencies": {
+        "esbuild": "^0.12.11"
+    }
+}
